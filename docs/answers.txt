@@ -1,0 +1,49 @@
+I joined GitHub on November 8th, 2024.
+I started the learngitbranching.js.org on Feb 26th and finished those along with the other 2 websites today, 3/1/2025.
+
+The assignment2 repo: https://github.com/ethanjameslong1/assignment2.git
+
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 414 bytes | 414.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/ethanjameslong1/assignment2.git
+   5a3e146..5f71f63  master -> master
+
+git rev-list --count --all
+commits: 9
+
+git log -1 --format=%cd -- README.md
+Sat Mar 1 16:24:15 2025 -0500
+
+Branches are used in github repositories to seperate various ideas/implementations from the main.
+Branches are used in github repositories to experiment safely with possibly dangerous ideas.
+
+git log shows the commit history of the repository, showing details about the various commits that have happened
+git status shows the state of the current working directory, it can be used to check on the status before committing anything.
+
+git log -- Vehicle.h
+
+git log --grep="file"
+
+In the context of object-oriented programming 
+  (I) What is inheritance?
+    Where a class (child) takes on the methods and attributes of another class (parent)
+  (II) What is polymorphism? 
+    allows an object of a class to be treated as an object of it's case class. A single function can actually do different things when dealing with subclasses.
+  (III) What is encapsulation?
+    encapsulation is the practice of bounding direct access to details in an object, accessing these methods and variables through methods or used in classes with access.
+
+9.  What is the main difference between the “Dictator and Lieutenants” workflow and the “Integration manager” workflow? (5 points)
+  I think the main difference is the levels. With the dictator, the final repo is only worried about merging lieutenant repos and those only merge some devs repos. 
+  Where as the Integration Manager has to merge all dev repos.
+
+10. How would a team of 100 developers benefit from following the “Dictator and Lieutenants” workflow instead of the “Centralized” workflow? (5 points)
+  If 100 different developers are all working on a single repo the odds that there are people overwriting work, or working on old concepts is very high. Having some kind of mangement to the mix would fix a lot of those problems.
+
+
+
+
